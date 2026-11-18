@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NaTIS Namibia Online Learner's Test Prep 🇳🇦</title>
+  <title>NaTIS Namibia Learner's Licence Prep 🇳🇦</title>
   <style>
     :root {
       --bg: #070b14;
@@ -13,7 +13,6 @@
       --primary-dark: #0284c7;
       --green: #10b981;
       --red: #ef4444;
-      --amber: #f59e0b;
       --text: #f8fafc;
       --muted: #94a3b8;
       --border: #263345;
@@ -61,25 +60,10 @@
       max-width: 460px;
     }
 
-    .ad-wrap {
-      max-width: 580px;
-      margin: 8px auto 12px;
-      padding: 0 14px;
-      text-align: center;
-    }
-
-    .ad-label {
-      font-size: 0.7rem;
-      color: var(--muted);
-      margin-bottom: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-    }
-
     .container {
       max-width: 580px;
-      margin: 0 auto;
-      padding: 0 14px 40px;
+      margin: 10px auto 0;
+      padding: 0 14px 44px;
     }
 
     .card {
@@ -91,7 +75,7 @@
     }
 
     .card-title {
-      font-size: 1.2rem;
+      font-size: 1.22rem;
       font-weight: 700;
       margin: 0 0 16px;
       text-align: center;
@@ -102,7 +86,7 @@
       font-size: 0.85rem;
       font-weight: 600;
       color: var(--muted);
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
 
     .code-grid {
@@ -112,32 +96,25 @@
       margin-bottom: 20px;
     }
 
-    .time-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
-      margin-bottom: 22px;
-    }
-
     .pill-btn {
       background: var(--surface-2);
       border: 1.5px solid var(--border);
       color: var(--text);
-      padding: 12px 6px;
+      padding: 14px 6px;
       border-radius: 12px;
       text-align: center;
       cursor: pointer;
       font-weight: 700;
-      font-size: 0.92rem;
+      font-size: 0.94rem;
       transition: 0.18s ease;
     }
 
     .pill-btn small {
       display: block;
       font-weight: 400;
-      font-size: 0.72rem;
+      font-size: 0.74rem;
       color: var(--muted);
-      margin-top: 2px;
+      margin-top: 3px;
     }
 
     .pill-btn.active {
@@ -147,6 +124,23 @@
     }
 
     .pill-btn.active small { color: #bae6fd; }
+
+    .k53-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .k53-tag {
+      font-size: 0.76rem;
+      background: #0b1220;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 5px 10px;
+      border-radius: 8px;
+    }
 
     .btn-main {
       width: 100%;
@@ -159,6 +153,20 @@
       font-size: 1rem;
       cursor: pointer;
       margin-bottom: 12px;
+    }
+
+    .btn-jobs {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      border-radius: 12px;
+      background: var(--surface-2);
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 0.95rem;
+      text-decoration: none;
+      margin-bottom: 10px;
     }
 
     .quick-box {
@@ -193,7 +201,7 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 10px;
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       font-weight: 700;
     }
 
@@ -205,10 +213,10 @@
       border: 1px solid var(--border);
     }
 
-    .timer-pill {
-      background: rgba(245, 158, 11, 0.14);
-      color: var(--amber);
-      border: 1px solid rgba(245, 158, 11, 0.4);
+    .score-pill {
+      background: rgba(16, 185, 129, 0.14);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.35);
       padding: 4px 10px;
       border-radius: 8px;
     }
@@ -242,8 +250,8 @@
     }
 
     .sign-stage svg {
-      width: 84px;
-      height: 84px;
+      width: 90px;
+      height: 90px;
     }
 
     .q-text {
@@ -304,8 +312,8 @@
 
     /* Results */
     .score-circle {
-      width: 115px;
-      height: 115px;
+      width: 118px;
+      height: 118px;
       border-radius: 50%;
       margin: 0 auto 14px;
       display: flex;
@@ -350,20 +358,13 @@
   <header>
     <div class="badge-top">🇳🇦 NAMIBIA K53 / NaTIS PREP</div>
     <h1>Let's Prep You</h1>
-    <p>Master your Namibian learner's test with unlimited randomized practice papers.</p>
+    <p>Practice all K53 Signs, Rules & Vehicle Controls at your own pace.</p>
   </header>
-
-  <!-- NativeBanner_1 (Clean in-page ad placement) -->
-  <div class="ad-wrap">
-    <div class="ad-label">Ads fuel your free experience</div>
-    <script async="async" data-cfasync="false" src="https://bicea.org/21/15044d1f0a1c0aecdaeccff6215c8d6b"></script>
-    <div id="container-15044d1f0a1c0aecdaeccff6215c8d6b"></div>
-  </div>
 
   <div class="container">
     <!-- SETUP SCREEN -->
     <div id="setupScreen" class="card">
-      <h2 class="card-title">Choose Code & Set Time</h2>
+      <h2 class="card-title">Select Your Licence Code</h2>
 
       <span class="field-label">Which code are you pursuing?</span>
       <div class="code-grid">
@@ -372,28 +373,26 @@
         <div class="pill-btn" onclick="pickCode('Code 3', this)">Code 3<small>Heavy Truck</small></div>
       </div>
 
-      <span class="field-label">How long should your test be?</span>
-      <div class="time-grid">
-        <div class="pill-btn active" onclick="pickTime(60, this)">60 Min</div>
-        <div class="pill-btn" onclick="pickTime(30, this)">30 Min</div>
-        <div class="pill-btn" onclick="pickTime(15, this)">15 Min</div>
-        <div class="pill-btn" onclick="pickTime(5, this)">5 Min</div>
+      <div class="k53-pills">
+        <span class="k53-tag">🛑 Road Signs</span>
+        <span class="k53-tag">🛣️ Rules of the Road</span>
+        <span class="k53-tag">🎛️ Vehicle Controls</span>
       </div>
 
-      <button class="btn-main" onclick="beginTest(true, 30)">Start Full Exam (30 Random Questions)</button>
+      <button class="btn-main" onclick="beginTest(30)">Start Full K53 Paper (30 Random Questions)</button>
 
       <div class="quick-box">
-        <p>No time for the full test? Answer 21 randomized questions at your own pace! 🚀</p>
-        <button class="btn-quick" onclick="beginTest(false, 21)">Start Quick Test (21 Questions)</button>
+        <p>Want a shorter warm-up session? Try 21 randomized questions! 🚀</p>
+        <button class="btn-quick" onclick="beginTest(21)">Start Quick Practice (21 Questions)</button>
       </div>
     </div>
 
     <!-- QUIZ SCREEN -->
     <div id="quizScreen" class="card hidden">
       <div class="quiz-top">
-        <span id="qProgress">1 / 21</span>
+        <span id="qProgress">1 / 30</span>
         <span id="qCategory" class="cat-tag">Road Rules</span>
-        <span id="timerBadge" class="timer-pill">60:00</span>
+        <span id="liveScore" class="score-pill">Score: 0</span>
       </div>
       <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
 
@@ -407,14 +406,15 @@
     <div id="resultScreen" class="card hidden" style="text-align:center;">
       <div class="score-circle">
         <strong id="finalPct">0%</strong>
-        <span id="finalFraction">0 / 21</span>
+        <span id="finalFraction">0 / 30</span>
       </div>
       <h2 id="verdictTitle" style="margin:0 0 6px;">Test Finished!</h2>
       <p id="verdictSub" style="color:var(--muted); margin:0 0 18px; font-size:0.92rem;"></p>
 
       <button class="btn-share" onclick="shareScore()">📲 Challenge a Friend on WhatsApp / IG</button>
-      <button class="btn-main" onclick="startNewRandomPaper()">🔄 Generate New Random Test Paper</button>
-      <button class="pill-btn" style="width:100%;" onclick="location.reload()">Change Code or Timer</button>
+      <button class="btn-main" onclick="startNewRandomPaper()">🔄 Generate New Random Paper</button>
+      <a href="https://namjobs-xi.vercel.app/" target="_blank" class="btn-jobs">💼 Browse Namibia Jobs & Driver Vacancies</a>
+      <button class="pill-btn" style="width:100%;" onclick="location.reload()">Change Licence Code</button>
 
       <div id="reviewSection" style="margin-top:20px;"></div>
     </div>
@@ -422,90 +422,123 @@
 
   <script>
     let chosenCode = 'Code 2';
-    let chosenMins = 60;
-    let isTimedMode = true;
-    let paperLength = 21;
+    let paperLength = 30;
     let activePaper = [];
     let idx = 0;
     let score = 0;
     let missedList = [];
-    let timerObj = null;
     let answered = false;
 
-    // SVG Road Sign Library
+    // 18 Crisp SVG Namibian Road Signs
     const SIGNS = {
       stop: `<svg viewBox="0 0 100 100"><polygon points="30,5 70,5 95,30 95,70 70,95 30,95 5,70 5,30" fill="#dc2626" stroke="#fff" stroke-width="4"/><text x="50" y="58" font-size="23" font-weight="900" fill="#fff" text-anchor="middle" font-family="sans-serif">STOP</text></svg>`,
       yield: `<svg viewBox="0 0 100 100"><polygon points="50,92 8,14 92,14" fill="#fff" stroke="#dc2626" stroke-width="10"/></svg>`,
       noEntry: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#dc2626" stroke="#fff" stroke-width="3"/><rect x="18" y="42" width="64" height="16" fill="#fff"/></svg>`,
       speed60: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#fff" stroke="#dc2626" stroke-width="9"/><text x="50" y="61" font-size="32" font-weight="900" fill="#111" text-anchor="middle" font-family="sans-serif">60</text></svg>`,
+      speed100: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#fff" stroke="#dc2626" stroke-width="9"/><text x="50" y="59" font-size="26" font-weight="900" fill="#111" text-anchor="middle" font-family="sans-serif">100</text></svg>`,
       speed120: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#fff" stroke="#dc2626" stroke-width="9"/><text x="50" y="59" font-size="26" font-weight="900" fill="#111" text-anchor="middle" font-family="sans-serif">120</text></svg>`,
       keepLeft: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#0284c7" stroke="#fff" stroke-width="3"/><path d="M65 30 L35 65 M35 65 L35 45 M35 65 L55 65" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>`,
+      oneWay: `<svg viewBox="0 0 100 100"><rect x="12" y="24" width="76" height="52" rx="8" fill="#0284c7" stroke="#fff" stroke-width="3"/><path d="M26 50 L72 50 M56 36 L72 50 L56 64" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>`,
       warnCurve: `<svg viewBox="0 0 100 100"><polygon points="50,8 94,88 6,88" fill="#fff" stroke="#dc2626" stroke-width="9"/><path d="M44 74 L44 52 Q44 38 62 34" stroke="#111" stroke-width="7" fill="none" stroke-linecap="round"/><polygon points="68,33 56,26 58,40" fill="#111"/></svg>`,
+      slippery: `<svg viewBox="0 0 100 100"><polygon points="50,8 94,88 6,88" fill="#fff" stroke="#dc2626" stroke-width="9"/><rect x="38" y="34" width="24" height="16" rx="3" fill="#111"/><path d="M36 56 Q48 64 38 74 M64 56 Q52 64 62 74" stroke="#111" stroke-width="4" fill="none" stroke-linecap="round"/></svg>`,
+      pedestrian: `<svg viewBox="0 0 100 100"><polygon points="50,8 94,88 6,88" fill="#fff" stroke="#dc2626" stroke-width="9"/><circle cx="50" cy="36" r="5" fill="#111"/><path d="M50 43 L50 60 M50 48 L39 56 M50 48 L61 56 M50 60 L41 75 M50 60 L59 75" stroke="#111" stroke-width="5" stroke-linecap="round"/></svg>`,
+      animalWarn: `<svg viewBox="0 0 100 100"><polygon points="50,8 94,88 6,88" fill="#fff" stroke="#dc2626" stroke-width="9"/><rect x="36" y="50" width="28" height="13" rx="4" fill="#111"/><circle cx="66" cy="46" r="5" fill="#111"/><path d="M40 63 L40 76 M60 63 L60 76 M66 41 L63 33 M68 41 L71 33" stroke="#111" stroke-width="4" stroke-linecap="round"/></svg>`,
+      roadworks: `<svg viewBox="0 0 100 100"><polygon points="50,8 94,88 6,88" fill="#facc15" stroke="#dc2626" stroke-width="9"/><circle cx="46" cy="40" r="5" fill="#111"/><path d="M46 47 L42 64 L34 76 M42 64 L52 76 M45 52 L58 62" stroke="#111" stroke-width="5" stroke-linecap="round" fill="none"/><polygon points="54,76 68,76 61,65" fill="#111"/></svg>`,
       noOvertake: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#fff" stroke="#dc2626" stroke-width="9"/><rect x="26" y="40" width="18" height="24" rx="3" fill="#dc2626"/><rect x="56" y="40" width="18" height="24" rx="3" fill="#111"/></svg>`,
-      roundabout: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#0284c7" stroke="#fff" stroke-width="3"/><circle cx="50" cy="50" r="22" fill="none" stroke="#fff" stroke-width="7" stroke-dasharray="28 14"/></svg>`,
-      noPark: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#1d4ed8" stroke="#dc2626" stroke-width="9"/><line x1="22" y1="22" x2="78" y2="78" stroke="#dc2626" stroke-width="9"/></svg>`
+      noUturn: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#fff" stroke="#dc2626" stroke-width="9"/><path d="M38 68 L38 44 A12 12 0 0 1 62 44 L62 64 M54 56 L62 65 L70 56" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="22" y1="22" x2="78" y2="78" stroke="#dc2626" stroke-width="8"/></svg>`,
+      noStop: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#1d4ed8" stroke="#dc2626" stroke-width="9"/><line x1="22" y1="22" x2="78" y2="78" stroke="#dc2626" stroke-width="8"/><line x1="78" y1="22" x2="22" y2="78" stroke="#dc2626" stroke-width="8"/></svg>`,
+      noPark: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="43" fill="#1d4ed8" stroke="#dc2626" stroke-width="9"/><line x1="22" y1="22" x2="78" y2="78" stroke="#dc2626" stroke-width="9"/></svg>`,
+      roundabout: `<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#0284c7" stroke="#fff" stroke-width="3"/><circle cx="50" cy="50" r="22" fill="none" stroke="#fff" stroke-width="7" stroke-dasharray="28 14"/></svg>`
     };
 
-    // Large K53 Question Bank (All Codes + Code-Specific Controls)
+    // 75+ Authentic Namibian K53 / NaTIS Questions
     const QUESTION_BANK = [
-      // ROAD SIGNS
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'stop', q: 'What must you do at this sign?', opts: ['Bring your vehicle to a complete standstill behind the stop line', 'Slow down to 10 km/h and roll through if clear', 'Stop only when traffic is approaching from the right'], ans: 0, exp: 'A STOP sign requires a full standstill behind the stop line every time.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'yield', q: 'This inverted triangular sign instructs you to:', opts: ['Give way to all cross-traffic and pedestrians before proceeding', 'Come to a mandatory full stop even if the road is empty', 'Merge onto a freeway at high speed'], ans: 0, exp: 'A Yield sign means give right of way to crossing traffic; stop only if necessary.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noEntry', q: 'What does this circular red sign with a white horizontal bar mean?', opts: ['No entry for all vehicular traffic', 'Road closed ahead for 500 metres', 'No stopping or parking allowed'], ans: 0, exp: 'This is a No Entry sign—never drive past it from your direction.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'speed60', q: 'What does this sign indicate?', opts: ['Maximum speed limit of 60 km/h', 'Minimum speed of 60 km/h required', 'Recommended advisory speed in rain'], ans: 0, exp: 'A red-bordered circular number sets the legal maximum speed limit.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'keepLeft', q: 'Blue circular signs with white arrows indicate:', opts: ['A compulsory direction you MUST follow (keep left)', 'A recommended scenic route', 'A one-way street ending ahead'], ans: 0, exp: 'Blue regulatory circles give mandatory instructions you must obey.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'warnCurve', q: 'Triangular signs with a red border warn you of:', opts: ['A sharp curve or hazard ahead—reduce speed', 'Mandatory right turn only', 'Freeway off-ramp in 2 km'], ans: 0, exp: 'Red-bordered triangles are warning signs alerting you to hazards ahead.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noOvertake', q: 'What is prohibited when you see this sign?', opts: ['Overtaking another motor vehicle', 'Driving side-by-side on a dual carriageway', 'Parking next to red cars'], ans: 0, exp: 'This regulatory sign prohibits overtaking any motor vehicle.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'roundabout', q: 'Approaching this blue sign, you must:', opts: ['Enter the roundabout and yield to traffic already inside from the right', 'Drive straight across the centre island', 'Sound your horn before entering'], ans: 0, exp: 'At a roundabout/traffic circle in Namibia, yield to vehicles approaching from your right.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noPark', q: 'What does a blue circle with a red border and single diagonal red bar mean?', opts: ['No parking allowed', 'No stopping at any time', 'No U-turns permitted'], ans: 0, exp: 'A single diagonal slash means No Parking; a red X means No Stopping.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', q: 'Road signs with a yellow background indicate:', opts: ['Temporary conditions such as roadworks or detours', 'Permanent national highway rules', 'Private farm roads only'], ans: 0, exp: 'Yellow background signs indicate temporary roadworks or changed conditions.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', q: 'What does a solid white line down the centre of a two-way road mean?', opts: ['You may NOT cross or straddle the line to overtake', 'Overtaking is allowed if the road looks clear', 'It separates fast and slow lanes going the same way'], ans: 0, exp: 'A solid barrier line prohibits crossing over to overtake.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', q: 'Painted yellow lines on the edge of the road curb mean:', opts: ['No parking (broken yellow) or No stopping (solid yellow)', 'Reserved bus lane only', 'Safe loading zone for trucks'], ans: 0, exp: 'Solid yellow curb lines prohibit stopping; broken yellow lines prohibit parking.' },
+      // SECTION 1: ROAD SIGNS & ROAD MARKINGS (25 Questions)
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'stop', q: 'What must you do when approaching this octagonal sign?', opts: ['Bring your vehicle to a complete standstill behind the stop line', 'Slow down to 10 km/h and roll through if the road looks clear', 'Stop only when another vehicle is inside the intersection'], ans: 0, exp: 'A STOP sign requires a full standstill behind the stop line every time.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'yield', q: 'This inverted triangular sign instructs you to:', opts: ['Give way to all cross-traffic and pedestrians before proceeding', 'Come to a complete stop even when no traffic is approaching', 'Accelerate quickly to merge ahead of other vehicles'], ans: 0, exp: 'A Yield sign means give right of way to crossing traffic; stop only if necessary.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noEntry', q: 'What does this circular red sign with a white horizontal bar mean?', opts: ['No entry for all vehicular traffic from your direction', 'Dead-end street ahead in 200 metres', 'No parking or loading allowed'], ans: 0, exp: 'This is a No Entry sign—never drive past it from your direction.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'speed60', q: 'What does this circular sign indicate?', opts: ['Maximum legal speed limit of 60 km/h', 'Minimum speed of 60 km/h required', 'Recommended advisory speed during dry weather'], ans: 0, exp: 'A red-bordered circular number sets the legal maximum speed limit.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'speed100', q: 'Where you see this sign on a Namibian road, you must:', opts: ['Not exceed 100 km/h under any circumstances', 'Maintain at least 100 km/h in the right lane', 'Drive 100 km/h only during daylight'], ans: 0, exp: 'Regulatory speed limit signs specify the maximum permissible speed.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'keepLeft', q: 'Blue circular signs with white arrows indicate:', opts: ['A compulsory direction you MUST follow (keep left)', 'A recommended scenic bypass route', 'A one-way street ending ahead'], ans: 0, exp: 'Blue regulatory circles give mandatory instructions you must obey.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'oneWay', q: 'What does this rectangular blue sign with a white arrow indicate?', opts: ['Traffic moves only in the direction of the arrow (One-Way Roadway)', 'Turn right immediately at the next driveway', 'Freeway off-ramp ahead'], ans: 0, exp: 'Rectangular blue arrow signs indicate a one-way roadway.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'warnCurve', q: 'Triangular signs with a red border warn you of:', opts: ['A sharp curve ahead—reduce speed before entering the bend', 'Mandatory right turn at the next robot', 'Passing lane begins ahead'], ans: 0, exp: 'Red-bordered triangles are warning signs alerting you to hazards ahead.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'slippery', q: 'What hazard does this warning sign alert you to?', opts: ['Slippery road surface ahead—reduce speed and avoid sudden braking', 'Winding mountain pass for the next 10 km', 'Car wash facility ahead'], ans: 0, exp: 'Warns of a slippery road surface when wet or dusty; slow down smoothly.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'pedestrian', q: 'When you see this warning sign, you should:', opts: ['Watch carefully for pedestrians crossing ahead and be ready to stop', 'Sound your horn to warn walkers off the road', 'Speed up to pass before pedestrians reach the curb'], ans: 0, exp: 'Alerts drivers to an upcoming pedestrian crossing or heavy foot traffic.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'animalWarn', q: 'On Namibian highways, this warning sign means:', opts: ['Watch out for wild or domestic animals crossing the road, especially at dusk/night', 'Game reserve entrance gate ahead', 'Livestock auction yard only'], ans: 0, exp: 'Warns of kudu, warthogs, or cattle crossing the roadway.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'roadworks', q: 'A triangular sign with a yellow background indicates:', opts: ['Temporary roadworks or construction ahead—slow down and obey flagmen', 'Permanent national speed zone', 'Rest area and picnic site'], ans: 0, exp: 'Yellow-background warning signs indicate temporary roadworks or detours.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noOvertake', q: 'What is prohibited when you see this regulatory sign?', opts: ['Overtaking another motor vehicle', 'Driving side-by-side on a multi-lane road', 'Towing a trailer'], ans: 0, exp: 'This regulatory sign prohibits overtaking any motor vehicle.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noUturn', q: 'What does this sign prohibit?', opts: ['Making a U-turn to reverse your direction of travel', 'Turning left at the next intersection', 'Reversing into a parking bay'], ans: 0, exp: 'A crossed-out U-arrow strictly prohibits making a U-turn.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noStop', q: 'What does a blue circle with a red border and a red X mean?', opts: ['No stopping at any time—not even to drop off a passenger', 'No parking for longer than 30 minutes', 'Intersection closed to heavy trucks'], ans: 0, exp: 'A red X inside a blue circle means No Stopping at any time.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'noPark', q: 'What does a blue circle with a red border and single diagonal slash mean?', opts: ['No parking allowed', 'No stopping at any time', 'No entry for motorcycles'], ans: 0, exp: 'A single diagonal slash means No Parking; a red X means No Stopping.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', sign: 'roundabout', q: 'Approaching this circular blue sign, you must:', opts: ['Enter the traffic circle and yield to vehicles already inside from your right', 'Drive straight over the centre island', 'Stop completely even if the circle is empty'], ans: 0, exp: 'At a roundabout in Namibia, yield to vehicles approaching from your right.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Markings', q: 'What does a continuous solid white line down the centre of a two-way road mean?', opts: ['You may NOT cross or straddle the line to overtake', 'Overtaking is permitted if you flash your headlights', 'You may cross it only to pass slow trucks'], ans: 0, exp: 'A solid barrier line prohibits crossing over to overtake.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Markings', q: 'When a broken white line is next to a solid white line in the centre of the road, you may overtake ONLY if:', opts: ['The broken line is on your side of the road and the way ahead is clear', 'The solid line is on your side of the road', 'You are driving a motorcycle'], ans: 0, exp: 'You may cross only when the broken line is immediately on your side.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Markings', q: 'What do painted yellow lines along the edge of the road curb mean?', opts: ['Solid yellow = No stopping; Broken yellow = No parking', 'Loading zone for taxis and buses', 'Safe area to park overnight'], ans: 0, exp: 'Solid yellow curb lines prohibit stopping; broken yellow lines prohibit parking.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Markings', q: 'What does a painted white island (channelizing island) with diagonal stripes on the road mean?', opts: ['Do not drive over, cross, or park on the painted island', 'Use it as an extra overtaking lane', 'Use it for emergency parking'], ans: 0, exp: 'Painted traffic islands separate traffic streams—never drive over them.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', q: 'What is the purpose of green rectangular directional signs on Namibian roads?', opts: ['Guidance and navigation showing towns, distances, and route numbers', 'Mandatory speed restrictions', 'Temporary hazard warnings'], ans: 0, exp: 'Green and brown rectangular signs provide directional and tourist guidance.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', q: 'What does a flashing amber (yellow) traffic light at an intersection mean?', opts: ['Proceed with caution and yield to pedestrians and cross-traffic', 'Stop and wait for a green arrow', 'Speed up before the light turns red'], ans: 0, exp: 'Flashing amber means proceed carefully while yielding right of way.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Signs', q: 'What does a flashing red traffic light mean?', opts: ['Treat it like a STOP sign—come to a complete standstill and go only when safe', 'Slow down and yield without stopping', 'The road is closed to all traffic'], ans: 0, exp: 'A flashing red signal acts as a mandatory STOP sign.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Road Markings', q: 'Transverse white shark-tooth triangles painted across your lane indicate:', opts: ['A Yield line—give way to cross-traffic before crossing the markings', 'A speed bump ahead', 'A bus stop bay'], ans: 0, exp: 'Shark-tooth markings indicate a yield line where you must give way.' },
 
-      // RULES OF THE ROAD (NAMIBIA K53)
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the general speed limit in an urban area (town/city) in Namibia unless signposted otherwise?', opts: ['60 km/h', '80 km/h', '50 km/h'], ans: 0, exp: 'The default urban speed limit across Namibia is 60 km/h.' },
-      { codes: ['Code 1','Code 2'], cat: 'Rules of the Road', sign: 'speed120', q: 'What is the maximum speed limit on a tarred national road outside an urban area for Code 1 & Code 2 vehicles?', opts: ['120 km/h', '100 km/h', '140 km/h'], ans: 0, exp: 'Light motor vehicles and motorcycles have a 120 km/h limit on tarred national roads.' },
-      { codes: ['Code 3'], cat: 'Rules of the Road', q: 'What is the maximum speed limit on a tarred national road outside an urban area for a heavy goods vehicle (Code 3 over 9,000 kg)?', opts: ['80 km/h', '100 km/h', '120 km/h'], ans: 0, exp: 'Heavy goods vehicles (GVM > 9,000 kg) are limited to 80 km/h on tarred highways.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the maximum speed limit on a gravel road outside an urban area in Namibia unless posted otherwise?', opts: ['100 km/h', '80 km/h', '120 km/h'], ans: 0, exp: 'Namibian gravel roads carry a general 100 km/h maximum unless signposted lower.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'Which side of the road must you drive on in Namibia?', opts: ['The left-hand side of the roadway', 'The right-hand side of the roadway', 'Either side on gravel roads'], ans: 0, exp: 'Namibia follows left-hand traffic rules.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'At a 4-way stop intersection where two vehicles arrive at the exact same time, who goes first?', opts: ['Yield to the vehicle on your right (or proceed in order of arrival)', 'The larger vehicle always goes first', 'Whoever flashes their headlights first'], ans: 0, exp: 'At a 4-way stop, vehicles move in order of arrival; if simultaneous, yield to the right.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When are you required to switch on your vehicle headlights in Namibia?', opts: ['Between sunset and sunrise, and whenever visibility is less than 150 metres', 'Only after 7:30 PM', 'Only outside town limits'], ans: 0, exp: 'Headlights must be on from sunset to sunrise and in dust/rain reducing visibility under 150m.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When driving behind another vehicle at night, you must dip your bright (high-beam) headlights:', opts: ['So the beam does not dazzle the driver ahead through their mirrors', 'Only when overtaking', 'Only inside town limits'], ans: 0, exp: 'Always switch to dipped beams when following another vehicle or meeting oncoming traffic.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the minimum safe following distance behind another vehicle on a dry road?', opts: ['At least a 2-second gap (3+ seconds for heavy vehicles or wet roads)', '1 car length', '5 metres at any speed'], ans: 0, exp: 'Use the 2-second rule (3+ seconds for Code 3 trucks or gravel/wet surfaces).' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'You may NOT park within what distance of a pedestrian crossing?', opts: ['9 metres on the approach side', '2 metres', '20 metres'], ans: 0, exp: 'Parking within 9 metres before a pedestrian crossing blocks visibility and is illegal.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'You may NOT park within what distance of an intersection?', opts: ['5 metres', '1 metre', '15 metres'], ans: 0, exp: 'Never park within 5 metres of an intersection corner.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When is overtaking on the left-hand side permitted?', opts: ['When the vehicle ahead is turning right and there is safe road space to pass on the left', 'Whenever the right lane is slow', 'On the gravel shoulder of a highway'], ans: 0, exp: 'Passing on the left is only legal when the front vehicle has signalled a right turn (or in multi-lane one-way traffic).' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'If an ambulance, fire truck, or police car approaches with siren and flashing lights, you must:', opts: ['Move safely to the left and stop if needed to give unobstructed right of way', 'Speed up to stay ahead of it', 'Stop immediately in the middle of the lane'], ans: 0, exp: 'Emergency vehicles with active sirens/lights have absolute right of way.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the correct K53 observation routine before changing lanes or turning?', opts: ['Check mirrors → check blind spot → signal → check again → manoeuvre', 'Signal → turn immediately → check mirror', 'Brake hard → signal → turn'], ans: 0, exp: 'K53 requires Mirror-Blindspot-Signal before altering your path.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When carrying a passenger or driving with a Learner’s Licence, what must be displayed on the vehicle?', opts: ['A clearly visible red letter "L" on a white background at the rear', 'Hazard lights flashing continuously', 'A green sticker on the front bumper'], ans: 0, exp: 'Learners must display a standard red "L" plate at the rear of the vehicle.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'For how long is a Namibian NaTIS Learner’s Licence valid once issued?', opts: ['18 months', '6 months', '5 years'], ans: 0, exp: 'A Namibian learner’s licence is valid for 18 months from the date of issue.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What does a flashing red traffic light mean?', opts: ['Treat it exactly like a STOP sign—stop completely and proceed only when safe', 'Slow down and yield without stopping', 'The intersection is closed'], ans: 0, exp: 'A flashing red signal acts as a mandatory 4-way STOP sign.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'If your vehicle breaks down on a national road outside town, where must you place your red reflective warning triangle?', opts: ['At least 45 metres behind the vehicle facing oncoming traffic', '2 metres behind the rear bumper', 'On the roof of the car'], ans: 0, exp: 'Place the warning triangle at least 45 metres behind the broken-down vehicle.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When towing another vehicle with a rope or tow-bar, what is the maximum legal speed limit?', opts: ['30 km/h', '60 km/h', '80 km/h'], ans: 0, exp: 'Vehicles towed with a rope/chain/bar (not a rigid A-frame/trailer) are restricted to 30 km/h.' },
-      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When driving through loose gravel or dust on Namibian rural roads, you should:', opts: ['Reduce speed, increase following distance, and avoid sudden braking or sharp steering', 'Brake hard if the rear slides', 'Drive close to the vehicle ahead to see its taillights'], ans: 0, exp: 'High speed and sudden inputs cause loss of traction on gravel roads.' },
+      // SECTION 2: RULES OF THE ROAD (32 Questions)
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the general speed limit inside an urban area (town or city) in Namibia unless signposted otherwise?', opts: ['60 km/h', '80 km/h', '50 km/h'], ans: 0, exp: 'The general urban speed limit in Namibia is 60 km/h.' },
+      { codes: ['Code 1','Code 2'], cat: 'Rules of the Road', sign: 'speed120', q: 'What is the maximum speed limit on a tarred national road outside an urban area for Code 1 and Code 2 vehicles?', opts: ['120 km/h', '100 km/h', '140 km/h'], ans: 0, exp: 'Light motor vehicles and motorcycles have a 120 km/h limit on tarred national roads.' },
+      { codes: ['Code 3'], cat: 'Rules of the Road', q: 'What is the maximum speed limit on a tarred national road outside an urban area for a heavy goods vehicle (Code 3 over 9,000 kg GVM)?', opts: ['80 km/h', '100 km/h', '120 km/h'], ans: 0, exp: 'Heavy goods vehicles exceeding 9,000 kg GVM are restricted to 80 km/h.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the general maximum speed limit on a gravel road outside an urban area in Namibia unless posted lower?', opts: ['100 km/h', '80 km/h', '120 km/h'], ans: 0, exp: 'Namibian gravel roads carry a general 100 km/h speed limit unless signposted lower.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'On which side of the road must you drive in Namibia?', opts: ['The left-hand side of the roadway', 'The right-hand side of the roadway', 'The centre of gravel roads'], ans: 0, exp: 'Namibia follows left-hand traffic rules.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'At a 4-way stop intersection where two vehicles arrive at the exact same moment, who has priority?', opts: ['Yield to the vehicle on your right (otherwise move in order of arrival)', 'The heavier vehicle always goes first', 'Whoever flashes their bright lights first'], ans: 0, exp: 'At a 4-way stop, proceed in order of arrival; if simultaneous, yield to the right.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When are you legally required to switch on your vehicle headlights in Namibia?', opts: ['Between sunset and sunrise, and whenever visibility is under 150 metres', 'Only after 8:00 PM', 'Only on national highways outside town'], ans: 0, exp: 'Headlights must be on from sunset to sunrise and whenever dust, fog, or rain limits visibility below 150m.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When meeting oncoming traffic or following another car at night, you must dip your bright headlights:', opts: ['So you do not dazzle the other driver', 'Only inside town limits', 'Only when travelling over 100 km/h'], ans: 0, exp: 'Always switch to dipped beams when approaching oncoming traffic or following another vehicle.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the minimum safe following distance behind another vehicle on a dry road?', opts: ['At least a 2-second gap (3+ seconds for heavy vehicles or wet/gravel roads)', 'One car length', '5 metres at any speed'], ans: 0, exp: 'Maintain at least a 2-second following distance (3+ seconds for Code 3 trucks or gravel roads).' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'You may NOT park your vehicle within what distance on the approach side of a pedestrian crossing?', opts: ['9 metres', '2 metres', '25 metres'], ans: 0, exp: 'Parking within 9 metres before a pedestrian crossing blocks sightlines and is illegal.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'You may NOT park your vehicle within what distance of an intersection?', opts: ['5 metres', '1 metre', '15 metres'], ans: 0, exp: 'Never park within 5 metres of an intersection corner.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When is overtaking on the left-hand side allowed?', opts: ['When the vehicle ahead is turning right and there is safe roadway space to pass on the left', 'Whenever the right lane is moving slowly', 'By driving onto the gravel shoulder'], ans: 0, exp: 'Passing on the left is legal only when the front vehicle is turning right or in multi-lane one-way traffic.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When an ambulance, fire engine, or police vehicle approaches with siren and flashing lights, you must:', opts: ['Pull safely to the left and stop if necessary to give clear right of way', 'Speed up to stay ahead of it', 'Stop immediately in the middle of the road'], ans: 0, exp: 'Emergency vehicles with active sirens and lights have absolute right of way.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the correct K53 observation routine before changing lanes or turning?', opts: ['Check mirrors → check blind spot → signal → check again → manoeuvre', 'Signal → turn immediately → check mirrors', 'Brake hard → signal → turn'], ans: 0, exp: 'K53 requires Mirror-Blindspot-Signal before changing direction or lane.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When driving with a valid NaTIS Learner’s Licence, what must be displayed on the vehicle?', opts: ['A clearly visible red letter "L" on a white background at the rear', 'Hazard lights flashing continuously', 'A yellow flag on the aerial'], ans: 0, exp: 'Learners must display a standard red "L" sign at the rear of the vehicle.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'For how long is a Namibian NaTIS Learner’s Licence valid from the date of issue?', opts: ['18 months', '6 months', '5 years'], ans: 0, exp: 'A Namibian learner’s licence is valid for 18 months.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'If your vehicle breaks down on a national road outside town, where must you place your red reflective warning triangle?', opts: ['At least 45 metres behind the vehicle facing oncoming traffic', '2 metres behind the rear bumper', 'On the roof of the vehicle'], ans: 0, exp: 'Place your warning triangle at least 45 metres behind the broken-down vehicle.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When towing another vehicle with a rope or tow-bar, what is the maximum legal speed limit?', opts: ['30 km/h', '60 km/h', '80 km/h'], ans: 0, exp: 'Vehicles towed with a rope, chain, or tow-bar are restricted to 30 km/h.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When driving on Namibian gravel roads in dust, what is the safest practice?', opts: ['Reduce speed, switch on headlights, and stay well back from dust clouds', 'Drive close to the car ahead to follow its tracks', 'Brake sharply whenever hitting loose corrugations'], ans: 0, exp: 'Slow down, turn on headlights so oncoming cars see you, and keep a wide gap.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'At an unguarded railway level crossing, you must:', opts: ['Slow down, look carefully in both directions, and stop if a train is approaching', 'Accelerate quickly across without looking', 'Sound your horn and cross without slowing'], ans: 0, exp: 'Always slow down and check both directions at unguarded railway crossings.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'Holding and using a mobile phone while driving in Namibia is:', opts: ['Illegal unless using a hands-free kit', 'Allowed when driving under 40 km/h', 'Allowed on straight open roads'], ans: 0, exp: 'Handheld mobile phone use while driving is prohibited by law.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'Where is overtaking strictly prohibited even if there is no road sign?', opts: ['Approaching the crest of a hill or blind curve where oncoming traffic is hidden', 'On any straight tarred road', 'Whenever driving behind a bus'], ans: 0, exp: 'Never overtake near a blind rise, curve, or pedestrian crossing.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'What is the minimum legal tyre tread depth across the main tread pattern in Namibia?', opts: ['1 millimetre (1 mm)', '0.2 millimetres', '5 millimetres'], ans: 0, exp: 'Tyres must have at least 1 mm of visible tread pattern across the circumference.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When turning right at an intersection, you must:', opts: ['Position near the centre line and yield to oncoming straight-through traffic and pedestrians', 'Turn sharply across oncoming traffic without yielding', 'Swing wide into the left lane first'], ans: 0, exp: 'Right-turning vehicles must yield to oncoming traffic going straight or turning left.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'Driving under the influence of alcohol or narcotic drugs in Namibia is:', opts: ['A serious criminal offence carrying fines, arrest, and licence suspension', 'Permitted if driving short distances in town', 'Allowed if you drive with hazard lights on'], ans: 0, exp: 'Drink-driving is strictly illegal and severely penalized.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When parking facing downhill on a steep road with a curb, which way should you turn your front wheels?', opts: ['Toward the curb (to the left)', 'Away from the curb (to the right)', 'Straight ahead only'], ans: 0, exp: 'Facing downhill, turn wheels toward the curb so the curb blocks the wheel if brakes fail.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'When are you allowed to sound your vehicle horn (hooter)?', opts: ['Only on grounds of safety to warn other road users of danger', 'To greet friends on the sidewalk', 'To force slow drivers out of your way'], ans: 0, exp: 'The horn may only be used as a safety warning.' },
+      { codes: ['Code 1','Code 2','Code 3'], cat: 'Rules of the Road', q: 'If traffic lights at an intersection are completely out of order (blank), you must:', opts: ['Treat the intersection as a 4-way STOP', 'Drive through at normal speed', 'Yield only to cars on your left'], ans: 0, exp: 'Out-of-order traffic signals must be treated as a 4-way stop.' },
+      { codes: ['Code 2','Code 3'], cat: 'Rules of the Road', q: 'When driving a Code 2 or Code 3 vehicle with a Learner’s Licence, you must:', opts: ['Be accompanied by a person holding a valid driver’s licence for that same vehicle class', 'Drive alone between 6:00 AM and 6:00 PM', 'Carry as many passengers as you like'], ans: 0, exp: 'Code 2 and Code 3 learners must always be accompanied by a licensed driver of that class.' },
+      { codes: ['Code 1'], cat: 'Rules of the Road (Code 1)', q: 'As a Code 1 Learner’s Licence holder riding a motorcycle in Namibia, may you carry a passenger?', opts: ['No, a Code 1 learner may never carry a pillion passenger', 'Yes, if the passenger wears a helmet', 'Yes, on urban roads only'], ans: 0, exp: 'Code 1 learners are strictly prohibited from carrying any passenger.' },
+      { codes: ['Code 1'], cat: 'Rules of the Road (Code 1)', q: 'What safety gear is legally compulsory when riding a motorcycle on a public road in Namibia?', opts: ['A properly fastened protective crash helmet', 'Sunglasses and leather gloves only', 'A high-visibility vest only'], ans: 0, exp: 'Wearing a fastened protective helmet is mandatory for all motorcycle riders.' },
+      { codes: ['Code 3'], cat: 'Rules of the Road (Code 3)', q: 'What is the maximum permissible overall length of an articulated heavy vehicle combination in Namibia?', opts: ['22 metres', '12.5 metres', '30 metres'], ans: 0, exp: 'Articulated vehicle combinations are limited to 22 metres overall length.' },
 
-      // VEHICLE CONTROLS (CODE-SPECIFIC)
-      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'In a manual vehicle, which pedal is positioned on the far left and operated by your left foot?', opts: ['The clutch pedal', 'The service brake pedal', 'The accelerator pedal'], ans: 0, exp: 'From left to right, pedals are Clutch (left foot), Brake (right foot), Accelerator (right foot).' },
-      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'What is the main purpose of the parking brake (handbrake)?', opts: ['To keep the vehicle stationary when parked or starting on an incline', 'To slow the vehicle down at highway speeds', 'To engage 4-wheel drive'], ans: 0, exp: 'The parking brake holds the vehicle stationary when parked or during hill starts.' },
-      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'Before starting the engine of a manual vehicle, you should ensure:', opts: ['The gear lever is in Neutral and the parking brake is engaged', 'The vehicle is in 1st gear with the handbrake off', 'The headlights and wipers are on'], ans: 0, exp: 'Always verify Neutral and an engaged handbrake before turning the key.' },
-      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'Why should you NOT coast (drive long distances) with the clutch pedal pressed down or in Neutral?', opts: ['You lose engine braking and full drivetrain control over the vehicle', 'It uses twice as much fuel', 'It overheats the radiator immediately'], ans: 0, exp: 'Coasting reduces vehicle stability and control, especially downhill.' },
-      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'On a standard motorcycle (Code 1), how is the front wheel brake operated?', opts: ['By squeezing the right-hand handlebar lever', 'By pressing the left foot pedal', 'By squeezing the left-hand handlebar lever'], ans: 0, exp: 'Right hand lever = front brake; left hand lever = clutch; right foot = rear brake.' },
-      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'On a motorcycle (Code 1), which control operates the clutch?', opts: ['The left-hand handlebar lever', 'The right-hand handlebar lever', 'The right foot pedal'], ans: 0, exp: 'The clutch lever is located on the left handlebar.' },
-      { codes: ['Code 1'], cat: 'Rules of the Road (Code 1)', q: 'As a Code 1 Learner’s Licence holder riding a motorcycle in Namibia, are you allowed to carry a passenger?', opts: ['No, a Code 1 learner may never carry a pillion passenger', 'Yes, if the passenger wears a helmet', 'Yes, during daylight hours only'], ans: 0, exp: 'Code 1 learner motorcyclists are strictly prohibited from carrying passengers.' },
-      { codes: ['Code 3'], cat: 'Vehicle Controls (Code 3)', q: 'Before driving a Code 3 heavy vehicle equipped with air brakes, you must check:', opts: ['That air pressure has built up to the normal operating range on the gauge and no low-air warning buzzer sounds', 'That the air tanks are completely empty', 'That the exhaust brake is permanently locked'], ans: 0, exp: 'Never move an air-braked truck until system pressure reaches safe operating levels.' },
-      { codes: ['Code 3'], cat: 'Rules of the Road (Code 3)', q: 'What is the maximum permissible overall length of an articulated heavy vehicle combination in Namibia?', opts: ['22 metres', '12.5 metres', '30 metres'], ans: 0, exp: 'Standard articulated combinations are limited to 22 metres overall length.' }
+      // SECTION 3: VEHICLE CONTROLS (18 Code-Specific Questions)
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'In a manual vehicle, which pedal is on the far left and operated by your left foot?', opts: ['The clutch pedal', 'The foot brake pedal', 'The accelerator pedal'], ans: 0, exp: 'Left to right: Clutch (left foot), Foot Brake (right foot), Accelerator (right foot).' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'Which foot is used to operate both the foot brake and the accelerator pedal?', opts: ['Your right foot', 'Your left foot', 'Left foot for brake, right foot for accelerator'], ans: 0, exp: 'The right foot controls both the accelerator and service brake.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'What is the primary function of the clutch pedal in a manual vehicle?', opts: ['To disconnect the engine from the gearbox so you can change gears or stop smoothly', 'To apply emergency braking to the rear wheels', 'To lock the steering wheel'], ans: 0, exp: 'The clutch disconnects engine power from the transmission during gear shifts and stops.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'What is the main purpose of the parking brake (handbrake)?', opts: ['To keep the vehicle stationary when parked and prevent rolling back on hill starts', 'To slow the vehicle down from 120 km/h', 'To engage reverse gear'], ans: 0, exp: 'The parking brake holds the vehicle stationary when parked or starting on an incline.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'Before starting the engine of a manual vehicle, you should check that:', opts: ['The gear lever is in Neutral and the parking brake is firmly applied', 'The vehicle is in 1st gear with the handbrake released', 'The bright headlights are switched on'], ans: 0, exp: 'Always ensure Neutral and an engaged handbrake before starting the engine.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'Why should you NOT coast downhill with the clutch depressed or gear lever in Neutral?', opts: ['You lose engine braking and have reduced control over the vehicle', 'It drains the battery immediately', 'It locks the front brakes'], ans: 0, exp: 'Coasting reduces drivetrain control and increases brake wear on slopes.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'How do you signal a left turn using the indicator stalk?', opts: ['Move the indicator lever downwards (or anticlockwise)', 'Move the indicator lever upwards', 'Press the hazard triangle button'], ans: 0, exp: 'On right-hand drive vehicles, pushing the right-hand indicator stalk down signals left.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'What does a red oil-can warning light glowing on the dashboard while driving mean?', opts: ['Dangerously low engine oil pressure—pull over safely and switch off the engine immediately', 'Time to wash the windscreen', 'Fuel tank is half full'], ans: 0, exp: 'Low oil pressure can destroy the engine within seconds; stop immediately.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'What does a red temperature warning light or gauge in the red zone indicate?', opts: ['The engine is overheating—stop safely and let it cool before checking coolant', 'Air conditioning is set too cold', 'Tyre pressure is slightly high'], ans: 0, exp: 'Stop safely to prevent severe engine damage; never open a hot radiator cap.' },
+      { codes: ['Code 2','Code 3'], cat: 'Vehicle Controls', q: 'Why must you keep both hands on the steering wheel (at the 10-to-2 or 9-to-3 position) except when changing gears or operating controls?', opts: ['To maintain maximum steering stability and control in emergencies', 'To keep the airbag turned on', 'To save fuel'], ans: 0, exp: 'Keeping both hands on the wheel ensures full control during sudden hazards.' },
+      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'On a standard motorcycle (Code 1), which control operates the front brake?', opts: ['The right-hand handlebar lever', 'The left-hand handlebar lever', 'The right foot pedal'], ans: 0, exp: 'Right handlebar lever = front brake; left handlebar lever = clutch.' },
+      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'On a standard motorcycle (Code 1), which control operates the clutch?', opts: ['The left-hand handlebar lever', 'The right-hand handlebar lever', 'The left foot pedal'], ans: 0, exp: 'The clutch lever is on the left handlebar.' },
+      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'On a standard motorcycle (Code 1), how is the rear wheel brake operated?', opts: ['By pressing down on the right-hand foot pedal', 'By pressing down on the left-hand foot pedal', 'By twisting the left handlebar grip'], ans: 0, exp: 'Right foot pedal = rear brake; left foot lever = gear shifter.' },
+      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'On a motorcycle (Code 1), which control operates the throttle (accelerator)?', opts: ['Twisting the right-hand handlebar grip', 'Twisting the left-hand handlebar grip', 'Pressing the right foot pedal'], ans: 0, exp: 'The throttle is controlled by twisting the right handlebar grip.' },
+      { codes: ['Code 1'], cat: 'Vehicle Controls (Code 1)', q: 'When stopping a motorcycle smoothly in normal conditions, how should you brake?', opts: ['Apply both front and rear brakes progressively together while upright', 'Slam only the front brake hard while leaning', 'Use only the engine kill switch'], ans: 0, exp: 'Progressive use of both brakes provides maximum stopping stability.' },
+      { codes: ['Code 3'], cat: 'Vehicle Controls (Code 3)', q: 'Before moving a Code 3 heavy truck equipped with air brakes, you must check:', opts: ['That air pressure has reached normal operating range on the gauge and the low-pressure warning is off', 'That all air tanks are drained to zero', 'That the trailer brake valve is disconnected'], ans: 0, exp: 'Full air pressure is essential before operating an air-braked heavy vehicle.' },
+      { codes: ['Code 3'], cat: 'Vehicle Controls (Code 3)', q: 'What is the purpose of an exhaust brake / retarder on a Code 3 heavy vehicle?', opts: ['To assist in slowing the heavy vehicle down long descents without overheating the wheel brakes', 'To increase turbo boost when overtaking', 'To lock the differential on tar roads'], ans: 0, exp: 'Retarders/exhaust brakes prevent brake fade on long downhill grades.' },
+      { codes: ['Code 3'], cat: 'Vehicle Controls (Code 3)', q: 'Why must a Code 3 driver check wheel nuts and air brake hoses during the pre-trip inspection?', opts: ['Loose wheel nuts or leaking air lines can cause wheel detachment or total brake failure', 'Only to pass roadblocks faster', 'It is optional for trips under 50 km'], ans: 0, exp: 'Pre-trip safety checks prevent catastrophic mechanical or braking failures.' }
     ];
 
     function pickCode(code, el) {
       el.parentElement.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
       chosenCode = code;
-    }
-
-    function pickTime(mins, el) {
-      el.parentElement.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
-      el.classList.add('active');
-      chosenMins = mins;
     }
 
     function shuffleArray(arr) {
@@ -518,11 +551,9 @@
     }
 
     function buildRandomPaper(code, count) {
-      // Filter questions applicable to chosen Code
       const eligible = QUESTION_BANK.filter(q => q.codes.includes(code));
       const shuffledQs = shuffleArray(eligible).slice(0, Math.min(count, eligible.length));
 
-      // Also randomize option order (A, B, C) for every question so answers can't be memorized by position
       return shuffledQs.map(item => {
         const mapped = item.opts.map((text, index) => ({
           text,
@@ -537,14 +568,12 @@
       });
     }
 
-    function beginTest(timed, count) {
-      isTimedMode = timed;
+    function beginTest(count) {
       paperLength = count;
       startNewRandomPaper();
     }
 
     function startNewRandomPaper() {
-      if (timerObj) clearInterval(timerObj);
       activePaper = buildRandomPaper(chosenCode, paperLength);
       idx = 0;
       score = 0;
@@ -553,24 +582,6 @@
       document.getElementById('setupScreen').classList.add('hidden');
       document.getElementById('resultScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
-
-      const badge = document.getElementById('timerBadge');
-      if (isTimedMode) {
-        let secs = chosenMins * 60;
-        badge.textContent = `${chosenMins}:00`;
-        timerObj = setInterval(() => {
-          secs--;
-          const m = Math.floor(secs / 60);
-          const s = secs % 60;
-          badge.textContent = `${m}:${s < 10 ? '0' : ''}${s}`;
-          if (secs <= 0) {
-            clearInterval(timerObj);
-            showResults();
-          }
-        }, 1000);
-      } else {
-        badge.textContent = `${chosenCode} • Untimed`;
-      }
 
       renderQuestion();
     }
@@ -582,7 +593,8 @@
 
       document.getElementById('qProgress').textContent = `${chosenCode} • ${idx + 1} / ${total}`;
       document.getElementById('qCategory').textContent = q.cat;
-      document.getElementById('progressFill').style.width = `${((idx) / total) * 100}%`;
+      document.getElementById('liveScore').textContent = `Score: ${score}`;
+      document.getElementById('progressFill').style.width = `${(idx / total) * 100}%`;
       document.getElementById('questionText').textContent = q.q;
 
       const stage = document.getElementById('signStage');
@@ -615,6 +627,7 @@
       if (pickedIdx === q.correctIndex) {
         btnEl.classList.add('correct');
         score++;
+        document.getElementById('liveScore').textContent = `Score: ${score}`;
       } else {
         btnEl.classList.add('wrong');
         buttons[q.correctIndex].classList.add('correct');
@@ -641,7 +654,6 @@
     }
 
     function showResults() {
-      if (timerObj) clearInterval(timerObj);
       document.getElementById('quizScreen').classList.add('hidden');
       document.getElementById('resultScreen').classList.remove('hidden');
 
@@ -686,7 +698,7 @@
     }
   </script>
 
-  <!-- SocialBar_1 (Small floating notification pop-up at top/corner of screen) -->
+  <!-- SocialBar_1 (Small floating notification pop-up only) -->
   <script data-cfasync="false" src="https://bicea.org/14/4e651eed01716f33a5b0feaf8f4a69fe"></script>
 </body>
 </html>
